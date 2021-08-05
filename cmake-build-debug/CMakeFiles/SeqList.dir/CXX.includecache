@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/22276/CLionProjects/LeetCode/LinearList/SeqList.cpp
+SeqList.h
+D:/22276/CLionProjects/LeetCode/LinearList/SeqList.h
+iostream
+-
+
+D:/22276/CLionProjects/LeetCode/LinearList/SeqList.h
+

@@ -1,0 +1,97 @@
+The system is: Windows - 10.0.19043 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: D:/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30037/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.29.30040 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.29.30040.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "D:/22276/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: D:/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30037/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.29.30040 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.29.30040.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "D:/22276/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/22276/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_aa33a\fast && 	"D:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_aa33a.dir\build.make /nologo -L                  CMakeFiles\cmTC_aa33a.dir\build
+Building C object CMakeFiles/cmTC_aa33a.dir/testCCompiler.c.obj
+	D:\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @C:\Users\22276\AppData\Local\Temp\nmB33F.tmp
+testCCompiler.c
+Linking C executable cmTC_aa33a.exe
+	"D:\Program Files\JetBrains\CLion 2020.3.4\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_aa33a.dir --rc=D:\WINDOW~2\10\bin\100190~1.0\x86\rc.exe --mt=D:\WINDOW~2\10\bin\100190~1.0\x86\mt.exe --manifests  -- D:\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_aa33a.dir\objects1.rsp @C:\Users\22276\AppData\Local\Temp\nmB38E.tmp
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/22276/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_529ff\fast && 	"D:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_529ff.dir\build.make /nologo -L                  CMakeFiles\cmTC_529ff.dir\build
+Building C object CMakeFiles/cmTC_529ff.dir/CMakeCCompilerABI.c.obj
+	D:\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @C:\Users\22276\AppData\Local\Temp\nmB5B0.tmp
+CMakeCCompilerABI.c
+Linking C executable cmTC_529ff.exe
+	"D:\Program Files\JetBrains\CLion 2020.3.4\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_529ff.dir --rc=D:\WINDOW~2\10\bin\100190~1.0\x86\rc.exe --mt=D:\WINDOW~2\10\bin\100190~1.0\x86\mt.exe --manifests  -- D:\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_529ff.dir\objects1.rsp @C:\Users\22276\AppData\Local\Temp\nmB5FF.tmp
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: D:/22276/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_14570\fast && 	"D:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_14570.dir\build.make /nologo -L                  CMakeFiles\cmTC_14570.dir\build
+Building CXX object CMakeFiles/cmTC_14570.dir/testCXXCompiler.cxx.obj
+	D:\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @C:\Users\22276\AppData\Local\Temp\nmB89E.tmp
+testCXXCompiler.cxx
+Linking CXX executable cmTC_14570.exe
+	"D:\Program Files\JetBrains\CLion 2020.3.4\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_14570.dir --rc=D:\WINDOW~2\10\bin\100190~1.0\x86\rc.exe --mt=D:\WINDOW~2\10\bin\100190~1.0\x86\mt.exe --manifests  -- D:\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_14570.dir\objects1.rsp @C:\Users\22276\AppData\Local\Temp\nmB90C.tmp
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/22276/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_b4a80\fast && 	"D:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_b4a80.dir\build.make /nologo -L                  CMakeFiles\cmTC_b4a80.dir\build
+Building CXX object CMakeFiles/cmTC_b4a80.dir/CMakeCXXCompilerABI.cpp.obj
+	D:\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @C:\Users\22276\AppData\Local\Temp\nmBB0F.tmp
+CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_b4a80.exe
+	"D:\Program Files\JetBrains\CLion 2020.3.4\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_b4a80.dir --rc=D:\WINDOW~2\10\bin\100190~1.0\x86\rc.exe --mt=D:\WINDOW~2\10\bin\100190~1.0\x86\mt.exe --manifests  -- D:\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_b4a80.dir\objects1.rsp @C:\Users\22276\AppData\Local\Temp\nmBB6E.tmp
+
+
+
