@@ -1,1 +1,4 @@
 /.vscode/
+/target/
+/cmake-build-debug/
+main.cpp
