@@ -1,4 +1,5 @@
 /.vscode/
 /target/
 /cmake-build-debug/
+/.idea/
 main.cpp
