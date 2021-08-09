@@ -61,50 +61,6 @@
 					<DistClean command="nmake /NOLOGO /f D:\22276\CLionProjects\LeetCode\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="1">
-				<Option output="D:/22276/CLionProjects/LeetCode/cmake-build-debug/1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir=""/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="D:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\ATLMFC\include"/>
-					<Add directory="D:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include"/>
-					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\ucrt"/>
-					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\shared"/>
-					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\um"/>
-					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\winrt"/>
-					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\22276\CLionProjects\LeetCode\cmake-build-debug\Makefile VERBOSE=1 1"/>
-					<CompileFile command="nmake /NOLOGO /f D:\22276\CLionProjects\LeetCode\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\22276\CLionProjects\LeetCode\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\22276\CLionProjects\LeetCode\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="1/fast">
-				<Option output="D:/22276/CLionProjects/LeetCode/cmake-build-debug/1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir=""/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="D:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\ATLMFC\include"/>
-					<Add directory="D:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include"/>
-					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\ucrt"/>
-					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\shared"/>
-					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\um"/>
-					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\winrt"/>
-					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\22276\CLionProjects\LeetCode\cmake-build-debug\Makefile VERBOSE=1 1/fast"/>
-					<CompileFile command="nmake /NOLOGO /f D:\22276\CLionProjects\LeetCode\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\22276\CLionProjects\LeetCode\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\22276\CLionProjects\LeetCode\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="D:/22276/CLionProjects/LeetCode/cmake-build-debug"/>
 				<Option type="4"/>
@@ -154,6 +110,94 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="nmake /NOLOGO /f D:\22276\CLionProjects\LeetCode\cmake-build-debug\Makefile VERBOSE=1 CMakeCXXCompilerId/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\22276\CLionProjects\LeetCode\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\22276\CLionProjects\LeetCode\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\22276\CLionProjects\LeetCode\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LStack">
+				<Option output="D:/22276/CLionProjects/LeetCode/cmake-build-debug/LStack.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="D:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\ATLMFC\include"/>
+					<Add directory="D:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\22276\CLionProjects\LeetCode\cmake-build-debug\Makefile VERBOSE=1 LStack"/>
+					<CompileFile command="nmake /NOLOGO /f D:\22276\CLionProjects\LeetCode\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\22276\CLionProjects\LeetCode\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\22276\CLionProjects\LeetCode\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LStack/fast">
+				<Option output="D:/22276/CLionProjects/LeetCode/cmake-build-debug/LStack.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="D:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\ATLMFC\include"/>
+					<Add directory="D:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\22276\CLionProjects\LeetCode\cmake-build-debug\Makefile VERBOSE=1 LStack/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\22276\CLionProjects\LeetCode\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\22276\CLionProjects\LeetCode\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\22276\CLionProjects\LeetCode\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SqStack">
+				<Option output="D:/22276/CLionProjects/LeetCode/cmake-build-debug/SqStack.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="D:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\ATLMFC\include"/>
+					<Add directory="D:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\22276\CLionProjects\LeetCode\cmake-build-debug\Makefile VERBOSE=1 SqStack"/>
+					<CompileFile command="nmake /NOLOGO /f D:\22276\CLionProjects\LeetCode\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\22276\CLionProjects\LeetCode\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\22276\CLionProjects\LeetCode\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SqStack/fast">
+				<Option output="D:/22276/CLionProjects/LeetCode/cmake-build-debug/SqStack.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="D:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\ATLMFC\include"/>
+					<Add directory="D:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\22276\CLionProjects\LeetCode\cmake-build-debug\Makefile VERBOSE=1 SqStack/fast"/>
 					<CompileFile command="nmake /NOLOGO /f D:\22276\CLionProjects\LeetCode\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="nmake /NOLOGO /f D:\22276\CLionProjects\LeetCode\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 					<DistClean command="nmake /NOLOGO /f D:\22276\CLionProjects\LeetCode\cmake-build-debug\Makefile VERBOSE=1 clean"/>
@@ -214,14 +258,20 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/22276/CLionProjects/LeetCode/1.cpp">
-			<Option target="1"/>
-		</Unit>
 		<Unit filename="D:/22276/CLionProjects/LeetCode/LinearList/SeqList.cpp">
 			<Option target="SeqList"/>
 		</Unit>
 		<Unit filename="D:/22276/CLionProjects/LeetCode/LinearList/SeqList.h">
 			<Option target="SeqList"/>
+		</Unit>
+		<Unit filename="D:/22276/CLionProjects/LeetCode/Stack/LStack.cpp">
+			<Option target="LStack"/>
+		</Unit>
+		<Unit filename="D:/22276/CLionProjects/LeetCode/Stack/SqStack.cpp">
+			<Option target="SqStack"/>
+		</Unit>
+		<Unit filename="D:/22276/CLionProjects/LeetCode/Stack/SqStack.h">
+			<Option target="SqStack"/>
 		</Unit>
 		<Unit filename="D:/22276/CLionProjects/LeetCode/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp">
 			<Option target="CMakeCXXCompilerId"/>

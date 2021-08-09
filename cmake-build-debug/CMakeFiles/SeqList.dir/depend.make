@@ -4,3 +4,6 @@
 CMakeFiles\SeqList.dir\LinearList\SeqList.obj: ..\LinearList\SeqList.cpp
 CMakeFiles\SeqList.dir\LinearList\SeqList.obj: ..\LinearList\SeqList.h
 
+CMakeFiles\SeqList.dir\Stack\SqStack.obj: ..\Stack\SqStack.cpp
+CMakeFiles\SeqList.dir\Stack\SqStack.obj: ..\Stack\SqStack.h
+

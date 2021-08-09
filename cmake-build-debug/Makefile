@@ -128,19 +128,6 @@ SeqList\fast:
 .PHONY : SeqList\fast
 
 #=============================================================================
-# Target rules for targets named 1
-
-# Build rule for target.
-1 : cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 1
-.PHONY : 1
-
-# fast build rule for target.
-1\fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\1.dir\build
-.PHONY : 1\fast
-
-#=============================================================================
 # Target rules for targets named CMakeCXXCompilerId
 
 # Build rule for target.
@@ -154,6 +141,32 @@ CMakeCXXCompilerId\fast:
 .PHONY : CMakeCXXCompilerId\fast
 
 #=============================================================================
+# Target rules for targets named LStack
+
+# Build rule for target.
+LStack: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) LStack
+.PHONY : LStack
+
+# fast build rule for target.
+LStack\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LStack.dir\build
+.PHONY : LStack\fast
+
+#=============================================================================
+# Target rules for targets named SqStack
+
+# Build rule for target.
+SqStack: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) SqStack
+.PHONY : SqStack
+
+# fast build rule for target.
+SqStack\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SqStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SqStack.dir\build
+.PHONY : SqStack\fast
+
+#=============================================================================
 # Target rules for targets named main
 
 # Build rule for target.
@@ -165,21 +178,6 @@ main: cmake_check_build_system
 main\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\build
 .PHONY : main\fast
-
-# target to build an object file
-1.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\1.dir\1.obj
-.PHONY : 1.obj
-
-# target to preprocess a source file
-1.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\1.dir\1.i
-.PHONY : 1.i
-
-# target to generate assembly for a file
-1.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\1.dir\1.s
-.PHONY : 1.s
 
 # target to build an object file
 CMakeFiles\3.17.5\CompilerIdCXX\CMakeCXXCompilerId.obj:
@@ -212,6 +210,36 @@ LinearList\SeqList.s:
 .PHONY : LinearList\SeqList.s
 
 # target to build an object file
+Stack\LStack.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LStack.dir\Stack\LStack.obj
+.PHONY : Stack\LStack.obj
+
+# target to preprocess a source file
+Stack\LStack.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LStack.dir\Stack\LStack.i
+.PHONY : Stack\LStack.i
+
+# target to generate assembly for a file
+Stack\LStack.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LStack.dir\Stack\LStack.s
+.PHONY : Stack\LStack.s
+
+# target to build an object file
+Stack\SqStack.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SqStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SqStack.dir\Stack\SqStack.obj
+.PHONY : Stack\SqStack.obj
+
+# target to preprocess a source file
+Stack\SqStack.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SqStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SqStack.dir\Stack\SqStack.i
+.PHONY : Stack\SqStack.i
+
+# target to generate assembly for a file
+Stack\SqStack.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SqStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SqStack.dir\Stack\SqStack.s
+.PHONY : Stack\SqStack.s
+
+# target to build an object file
 main.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\main.obj
 .PHONY : main.obj
@@ -234,19 +262,23 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... 1
 	@echo ... CMakeCXXCompilerId
+	@echo ... LStack
 	@echo ... SeqList
+	@echo ... SqStack
 	@echo ... main
-	@echo ... 1.obj
-	@echo ... 1.i
-	@echo ... 1.s
 	@echo ... CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.obj
 	@echo ... CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.i
 	@echo ... CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.s
 	@echo ... LinearList/SeqList.obj
 	@echo ... LinearList/SeqList.i
 	@echo ... LinearList/SeqList.s
+	@echo ... Stack/LStack.obj
+	@echo ... Stack/LStack.i
+	@echo ... Stack/LStack.s
+	@echo ... Stack/SqStack.obj
+	@echo ... Stack/SqStack.i
+	@echo ... Stack/SqStack.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -1,6 +1,7 @@
 "D:\Program Files\JetBrains\CLion 2020.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" D:\22276\CLionProjects\LeetCode
-    -- src/1.cpp will be compiled to bin/1
     -- src/SeqList.cpp will be compiled to bin/SeqList
+    -- src/LStack.cpp will be compiled to bin/LStack
+    -- src/SqStack.cpp will be compiled to bin/SqStack
     -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
     -- src/main.cpp will be compiled to bin/main
 CMake Warning (dev) in CMakeLists.txt:
