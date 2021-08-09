@@ -1,12 +1,12 @@
 #include "iostream"
 
-/*½á¹¹Ìå Á´±í½Úµã*/
+/*ç»“æž„ä½“ é“¾è¡¨èŠ‚ç‚¹*/
 typedef struct LNode{
     int data;
     LNode* next;
-}LNode,*LStack; //ÃüÃû½Úµã£¬ÒÔ¼°Á´Õ»,·½±ãÊ¹ÓÃ
+}LNode,*LStack; //å‘½åèŠ‚ç‚¹ï¼Œä»¥åŠé“¾æ ˆ,æ–¹ä¾¿ä½¿ç”¨
 
-/*stackµÄÈëÕ»²Ù×÷*/
+/*stackçš„å…¥æ ˆæ“ä½œ*/
 bool Push(LStack& stack,int x){
     LNode* node=new LNode;
     node->data=x;
@@ -14,13 +14,13 @@ bool Push(LStack& stack,int x){
     stack = node;
     return true;
 }
-/*stackµÄ³öÕ»²Ù×÷*/
+/*stackçš„å‡ºæ ˆæ“ä½œ*/
 bool Pop(LStack& stack,int& x){
     if(stack == nullptr) {
-        /*Á´±íÎª¿Õ·Ç·¨²Ù×÷*/
+        /*é“¾è¡¨ä¸ºç©ºéžæ³•æ“ä½œ*/
         return false;
     }
-    /*È¡Öµ£¬É¾³ýÕ»¶¥*/
+    /*å–å€¼ï¼Œåˆ é™¤æ ˆé¡¶*/
     LNode* node=stack->next;
     x = stack->data;
     delete stack;
@@ -29,10 +29,10 @@ bool Pop(LStack& stack,int& x){
 }
 bool GetTop(LStack stack,int& x){
     if(stack == nullptr) {
-        /*Á´±íÎª¿Õ·Ç·¨²Ù×÷*/
+        /*é“¾è¡¨ä¸ºç©ºéžæ³•æ“ä½œ*/
         return false;
     }
-    /*È¡Öµ*/
+    /*å–å€¼*/
     x = stack->data;
     return true;
 }
@@ -41,17 +41,17 @@ int main(){
     LStack s=nullptr;
     for (int i = 0; i < 12; ++i) {
         if(Push(s,i)){
-            std::cout<<"²åÈë³É¹¦: "<<i<<std::endl;
+            std::cout<<"æ’å…¥æˆåŠŸ: "<<i<<std::endl;
         } else{
-            std::cout<<"²åÈëÊ§°Ü: "<<i<<std::endl;
+            std::cout<<"æ’å…¥å¤±è´¥: "<<i<<std::endl;
         }
     }
     int x;
     for (int i = 0; i < 11; ++i) {
         if(Pop(s,x)){
-            std::cout<<"³öÕ»³É¹¦: "<<x<<std::endl;
+            std::cout<<"å‡ºæ ˆæˆåŠŸ: "<<x<<std::endl;
         } else{
-            std::cout<<"³öÕ»Ê§°Ü: "<<x<<std::endl;
+            std::cout<<"å‡ºæ ˆå¤±è´¥: "<<x<<std::endl;
         }
     }
 

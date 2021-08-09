@@ -5,7 +5,7 @@
 #include "SqStack.h"
 #include "iostream"
 bool SqStack::Pop(int &x) {
-    //stack ¿Õ
+    //stack ç©º
     if(this->top==-1){
         return false;
     }
@@ -13,7 +13,7 @@ bool SqStack::Pop(int &x) {
     return true;
 }
 bool SqStack::GetTop(int &x) {
-    //stack¿Õ
+    //stackç©º
     if(this->top==-1){
         return false;
     }
@@ -21,7 +21,7 @@ bool SqStack::GetTop(int &x) {
     return true;
 }
 bool SqStack::Push(int x){
-    // stack Âú
+    // stack æ»¡
     if(this->top+1==MaxSize){
         return false;
     }
@@ -37,17 +37,17 @@ int main(){
     SqStack s;
     for (int i = 0; i < 12; ++i) {
         if(s.Push(i)){
-            std::cout<<"²åÈë³É¹¦: "<<i<<std::endl;
+            std::cout<<"æ’å…¥æˆåŠŸ: "<<i<<std::endl;
         } else{
-            std::cout<<"²åÈëÊ§°Ü: "<<i<<std::endl;
+            std::cout<<"æ’å…¥å¤±è´¥: "<<i<<std::endl;
         }
     }
     int x;
     for (int i = 0; i < 11; ++i) {
         if(s.Pop(x)){
-            std::cout<<"³öÕ»³É¹¦: "<<x<<std::endl;
+            std::cout<<"å‡ºæ ˆæˆåŠŸ: "<<x<<std::endl;
         } else{
-            std::cout<<"³öÕ»Ê§°Ü: "<<x<<std::endl;
+            std::cout<<"å‡ºæ ˆå¤±è´¥: "<<x<<std::endl;
         }
     }
 
